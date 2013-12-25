@@ -6,7 +6,6 @@ describe Person do
   end
 
   it 'should be valid' do
-    person = Person.new(first_name: "Matt", last_name: "Pedersen")
     expect(person).to be_valid
   end
 
